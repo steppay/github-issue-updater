@@ -1,0 +1,10 @@
+name: 'on-push'
+description: 'on-push'
+author: 'Jihun Lee'
+branding:
+    icon: 'octicon-name'
+    color: 'blue'
+
+runs:
+    using: 'node16'
+    main: 'dist/on-push.js'

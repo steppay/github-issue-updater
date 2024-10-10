@@ -1,0 +1,10 @@
+name: 'on-pull-request'
+description: 'on-pull-request'
+author: 'Jihun Lee'
+branding:
+    icon: 'octicon-name'
+    color: 'blue'
+
+runs:
+    using: 'node16'
+    main: 'dist/on-pull-request.js'
