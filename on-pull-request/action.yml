@@ -7,4 +7,4 @@ branding:
 
 runs:
     using: 'node16'
-    main: 'dist/on-pull-request.js'
+    main: '../dist/on-pull-request.js'
