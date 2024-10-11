@@ -59,3 +59,8 @@ export function extractAsanaTasksFromMarkdown(markdown: string): AsanaTask[] {
             return acc.concat(tasks)
         }, [])
 }
+
+export function extractRepository(fullrepo: string) {
+    const [_, repo] = fullrepo.split('/')
+    return repo
+}
