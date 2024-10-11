@@ -7,10 +7,20 @@ module.exports = {
         'on-push': './src/on-push.ts',
     },
     resolve: {
-        extensions: ['.ts'],
+        extensions: ['.ts', '.js'],
+    },
+    module: {
+        rules: [
+            {
+                test: /\.ts$/,
+                use: 'ts-loader',
+                exclude: /node_modules/,
+            },
+        ],
     },
     output: {
         filename: '[name].js',
         path: path.resolve(__dirname, 'dist'),
     },
+    externals: [],
 }

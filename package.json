@@ -12,7 +12,9 @@
     "dependencies": {
         "@actions/core": "^1.11.1",
         "@actions/exec": "^1.1.1",
-        "@actions/github": "^6.0.0"
+        "@actions/github": "^6.0.0",
+        "@octokit/rest": "^21.0.2",
+        "cheerio": "^1.0.0"
     },
     "devDependencies": {
         "@jest/globals": "^29.7.0",
