@@ -5,6 +5,16 @@ branding:
     icon: 'octicon-name'
     color: 'blue'
 
+inputs:
+    asana-token:
+        description: 'Asana Token'
+        required: true
+    github-token:
+        description: 'GitHub Token'
+        required: true
+
 runs:
     using: 'node16'
     main: '../dist/on-pull-request.js'
+    
+    
