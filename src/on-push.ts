@@ -67,6 +67,7 @@ async function main() {
                         ])
                         return acc
                     }, {}),
+                completed: true,
             })
         }
     }

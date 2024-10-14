@@ -45,6 +45,7 @@ interface TaskUpdateRequest {
         custom_fields?: {
             [gid: string]: string[]
         }
+        completed?: boolean
     }
 }
 
